@@ -7,11 +7,11 @@ while True:
             break
         fn = float(num)
         if largest is None:
-       	    largest = fn
+            largest = fn
         elif fn > largest:
             largest = fn
         elif smallest is None:
-    	    smallest = fn
+            smallest = fn
         elif fn < smallest:
             smallest = fn
     except:
